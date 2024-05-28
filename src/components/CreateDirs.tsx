@@ -10,7 +10,6 @@ import { Controller, useForm } from "react-hook-form";
 import { SubmitHandler } from "react-hook-form";
 import api from "../utils/api";
 import { toast } from "react-toastify";
-import { idID } from "@mui/material/locale";
 
 export default function CreateDirs({ mediaId, onSuccess }: { mediaId: number, onSuccess: () => void }) {
   const [open, setOpen] = React.useState(false);
